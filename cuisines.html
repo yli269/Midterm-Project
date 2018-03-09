@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>IST363 Midterm</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="style.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script> 
+    <style>
+        a{text-decoration:none}
+    </style>
+</head>
+
+<body>
+        <nav class="navbar navbar-expand-md sticky-top"> 
+                <h2 class="sr-only">Navbar</h2>
+                <div class="container">
+                <div class="logo">
+                <a href="index.html">CTOUR</a>
+                <img src="images/huahua.png"alt="logo decoration">
+                </div>
+                <div class="flex">
+                <div class="collapse navbar-collapse"id="navbarToggleExternalContent">
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="explore.html">Explore</a>
+                    </li>
+                    <li>
+                        <a href="cuisines.html">Cuisines</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                   
+                </ul>
+                <form class="form-inline">
+                    <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                </form>
+                </div><!--end bar-->
+                <nav class="navbar navbar-dark">
+                        <h2 class="sr-only">Navbar components</h2>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                </nav>
+                </div><!--end flex-->
+                </div><!--end container-->
+            </nav><!--end navbar-->
+
+    
+    <div class="container">
+        <div class="alert alert-warning alert-dismissible fade show mt-2" role="alert">
+            <strong>Message!</strong> You have a new message, Please check your info box!
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="place row col-12 mb-2">
+            <h2>Chinese Cuisines</h2>
+        </div>
+        <div class="food">
+        <div class="food-item row">
+            <div class="food-image col-12 col-md-5">
+                <img src="images/lucai.jpg"alt="Lu cuisine">
+            </div>
+            <div class="food-text col-12 col-md-7">
+                <h3>Lu Cuisine</h3>
+                <p>Featuring freshness of materials and salt flavor, Lu Cuisine is derived from the traditional and historical cooking methods of Shandong Province. It is considered the most influential and popular in China.</p>
+            </div>
+        </div><!--end food item-->
+
+        <div class="food-item food-item-reversed row">
+            <div class="food-text col-12 col-md-7">
+                <h3>Chuan Cuisine <span class="badge badge-danger">Hot!</span></h3>
+                <p>Chuan Cuisine, also called Szechuan Cuisine, is a style of Chinese Cuisine originating in the Sichuan Province of southwestern China.It features spicy and heavily seasoned flavor, resulting from liberal use of garlic and chili peppers, as well as the unique flavor of the Sichuan peppercorn.</p>
+            </div>
+            <div class="food-image col-12 col-md-5">
+                <img src="images/chuancai.jpeg" alt="Chuan cuisine">
+            </div>               
+        </div><!--end food item-->
+
+        <div class="food-item row">
+            <div class="food-image col-12 col-md-5">
+                <img src="images/huicai.jpeg"alt="Anhi cuisine">
+            </div>
+            <div class="food-text col-12 col-md-7">
+                <h3>Hui Cuisine</h3>
+                <p>Anhui cuisine is even wilder than Fujian cuisine. It is inland, and big mountains such as the Yellow Mountains are the source of lots of different wild foods and herbs. It is basically a hearty mountain peasant food. Some of the best dishes incorporate wild food for an unusual taste.</p>
+            </div>
+        </div><!--end food item-->
+
+        <div class="food-item food-item-reversed row">
+            <div class="food-text col-12 col-md-7">
+                <h3>Hunan Cuisine <span class="badge badge-danger">Hot!</span></h3>
+                <p>Hunan Cuisine/Xiang Cuisine — Hot (Spicy) and Sour. Most tourists who visit China get to know the spicy red hot flavors of Sichuan cuisine since it is a tourist favorite. But in Hunan Province, the food is maybe even hotter.</p>
+            </div>
+            <div class="food-image col-12 col-md-5">
+                <img src="images/xiangcai.jpeg"alt="Hunan cuisine">
+            </div>               
+        </div><!--end food item-->
+        </div>
+    </div><!--end container-->
+
+    <div class="footer">
+        <div class="container">
+                Copyright &copy; 2018 Ctour. All Rights Reserved.
+        </div><!--end container-->
+    </div><!--end footer-->
+    
+</body>
+</html>
