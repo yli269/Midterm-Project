@@ -186,20 +186,17 @@ figure.effect-layla p {
 figure.effect-layla:hover img {
 	opacity: 0.7;
 	transform: translate3d(0,0,0);
-	transform: translate3d(0,0,0);
 }
 
 figure.effect-layla:hover h3,
 figure.effect-layla:hover p {
 	opacity: 1;
 	transform: translate3d(0,0,0);
-	transform: translate3d(0,0,0);
 }
 
 figure.effect-layla:hover h3,
 figure.effect-layla:hover p,
 figure.effect-layla:hover img {
-	transition-delay: 0.15s;
 	transition-delay: 0.15s;
 }
 /* cuisines' page*/
@@ -300,6 +297,10 @@ figure.effect-layla:hover img {
     }
     .map{
         height:300px;
+    }
+    .navbar img{
+        max-width:25%;
+        max-height:25%;
     }
 }
 @media screen and (max-width:375px){
